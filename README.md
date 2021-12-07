@@ -1,6 +1,7 @@
 # Brain-Tumor-Detection
 
 Image Segmentation model that predicts if a person has brain tumor with localizing the tumor on the original image. The Model uses an Unet architecture.
+
 The dataset used for the project is available here - [Brain MRI Segmentation](https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation)
 
 ## Predictions made by the model :
