@@ -1,5 +1,5 @@
 tensorflow==2.7.0
-cv2==4.1.2
+OpenCV==4.5.4
 streamlit==0.82.0
 numpy==1.19.5
-skimage==0.18.3
+scikit-image==0.19.0 
