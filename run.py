@@ -9,4 +9,4 @@ def tiff_call(content):
   if os.path.exists(path):
     return path
   else :
-    return "lgg-mri-segmentation\kaggle_3m\TCGA_CS_5395_19981004\TCGA_CS_5395_19981004_12.tif"
+    return "lgg-mri-segmentation/kaggle_3m/TCGA_CS_5395_19981004/TCGA_CS_5395_19981004_12.tif"
