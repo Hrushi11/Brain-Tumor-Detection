@@ -52,7 +52,7 @@ def file_Uploader():
     show_file = st.empty()
 
     if not file:
-        show_file.info("Upload a picture of the Sign you want to predict.")
+        show_file.info("Upload image of Brain MRI.")
         return
 
     content = file.name
