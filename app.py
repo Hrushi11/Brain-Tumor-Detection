@@ -28,7 +28,7 @@ def iou(y_true,y_pred):
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model("unet_brain_mri_seg.hdf5", 
+    model = tf.keras.models.load_model("unet-model.hdf5", 
                                         custom_objects={'dice_coef_loss': dice_coef_loss, 
                                                         'iou': iou, 
                                                         'dice_coef': dice_coef})
